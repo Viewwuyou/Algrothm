@@ -6,7 +6,8 @@ public class AdjGraph extends AbstractGraph {
 
     private final int V;
     private int E;
-    private ArrayList<Integer>[] adj;
+    private final
+    ArrayList<Integer>[] adj;
 
     @SuppressWarnings("unchecked")
     public AdjGraph(int V) {
