@@ -1,6 +1,7 @@
 package com.viewwuyou.test;
 
 import com.viewwuyou.algrothm.Graph.AdjGraph;
+import com.viewwuyou.algrothm.Graph.BreadthFirstSearch;
 import com.viewwuyou.algrothm.Graph.DepthFirstSearch;
 
 public class DFStest {
@@ -16,5 +17,7 @@ public class DFStest {
         graph.addEdge(3, 4);
         //System.out.println(graph.E());
         DepthFirstSearch depthFirstSearch = new DepthFirstSearch(graph, 0);
+        System.out.println();
+        BreadthFirstSearch breadthFirstSearch = new BreadthFirstSearch(graph, 0);
     }
 }
